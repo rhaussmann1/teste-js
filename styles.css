@@ -1,0 +1,42 @@
+/*
+*   Agora vocÃª precisarÃ¡ entender um pouco de CSS e HTML para continuar o desafio! :D
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url('../images/background.jpg') no-repeat center top;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.logo {
+    margin: 50px 0;
+}
+
+/* Outro detalhe, nosso padrÃ£o Ã© usar CSS em ordem alfabÃ©tica ;) */
+.msg {
+    border: 1px solid #d81f1f;
+    display: flex;
+    color: #e63333;
+    font-size: 16px;
+    margin: 50px auto;
+    opacity: 10;
+    padding: 10px;
+    text-align: center;
+    /* text-indent: -999px; */
+    /* text-transform: capitalize; */
+    visibility: visible;
+    width: 60%;
+}
+
+.vacancies-closed {
+    color: #333;
+}
